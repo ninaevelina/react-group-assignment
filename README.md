@@ -24,7 +24,7 @@ git clone https://github.com/ninaevelina/react-group-assignment
 ### Backend
 *Navigate to the project's backend directory*
 ```terminal 
-cd
+cd fed22s-backend
 ```
 *Install dependencies*
 ```terminal 
@@ -38,7 +38,7 @@ npx ts-node app.ts
 ### Frontend
 *Navigate to the project's frontend directory*
 ```terminal
-cd
+cd fed22s-therestaurant
 ```
 *Install dependencies*
 ```terminal

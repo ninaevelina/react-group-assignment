@@ -1,8 +1,14 @@
-# THE RESTAURANT
+# The Restaurant
 
 A fullstack booking application where the front end is built with React (Typescript), and the backend is built with Node.js, Typescript, MongoDB, Mongoose and ExpressJS. 
 
-## Techniques
+✨ **Contributors** ✨
+- [Jennie Forsell](https://github.com/jennieforsell1992)
+- [Mira Vitsas](https://github.com/miravit)
+- [Nina Khodnia](https://github.com/ninaevelina/)
+
+
+## Techniques 🛠️
 
 - React
 - Typescript
@@ -13,7 +19,7 @@ A fullstack booking application where the front end is built with React (Typescr
 - SASS
 - Styled Components
 
-## Run Application Locally
+## Run Application Locally 🚀
 
 ### Clone project
 ```terminal 

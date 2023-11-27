@@ -17,10 +17,7 @@ app.use((req, res, next) => {
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://react-group-assignment-api.vercel.app/",
-    ],
+    origin: ["https://react-group-assignment-frontend.vercel.app/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );

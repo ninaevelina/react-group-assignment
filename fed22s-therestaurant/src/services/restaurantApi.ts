@@ -5,7 +5,7 @@ import { IBooking } from "../models/IBooking";
 
 export const getAllBookings = async () => {
   const response = await axios.get<IBooking[]>(
-    "http://localhost:4000/api/v1/booking"
+    "https://react-group-assignment-test-backend.vercel.app/api/v1/booking"
   );
 
   return response.data;

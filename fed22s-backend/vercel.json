@@ -1,13 +1,17 @@
 {
   "version": 2,
   "builds": [
-    { "src": "*.ts", "use": "@vercel/node" },
-    { "src": "src/**/*.ts", "use": "@vercel/node" }
+    { "src": "fed22s-backend/*.ts", "use": "@vercel/node" },
+    { "src": "fed22s-backend/src/**/*.ts", "use": "@vercel/node" }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/src/$1"
+      "dest": "/fed22s-backend/src/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/fed22s-backend/src/$1"
     }
   ]
 }

@@ -27,7 +27,7 @@ app.use("/api/v1/booking", bookingRoutes);
 app.use((req, res) => {
   const isApiPath = req.path.startsWith("/api/");
 
-  if (isApiPath) return res.sendStatus(404);
+  if (!isApiPath) return res.sendStatus(404);
 
   return;
 });

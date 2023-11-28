@@ -18,7 +18,7 @@ export const createNewBooking = async (
 ): Promise<IBooking> => {
   console.log(booking);
   const response = await axios.post<IBooking>(
-    "http://localhost:4000/api/v1/booking",
+    "https://react-group-assignment-test-backend.vercel.app/api/v1/booking",
     booking
   );
   console.log(response.data);

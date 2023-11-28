@@ -32,7 +32,7 @@ app.use((req, res) => {
   console.log(req.path);
   console.log(isApiPath);
 
-  if (isApiPath) return res.sendStatus(404);
+  if (isApiPath) return res.sendStatus(200);
 
   return;
 });
